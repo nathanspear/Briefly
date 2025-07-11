@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Page Researcher</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin: 0;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .header p {
+            margin: 5px 0 0 0;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+        
+        .shortcut-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .shortcut-key {
+            font-weight: bold;
+            font-size: 16px;
+            color: #FFD700;
+            margin: 5px 0;
+        }
+        
+        .button {
+            width: 100%;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-bottom: 10px;
+        }
+        
+        .button:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .button:active {
+            transform: translateY(1px);
+        }
+        
+        .status {
+            font-size: 12px;
+            text-align: center;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+        
+        .features {
+            font-size: 12px;
+            line-height: 1.5;
+            opacity: 0.9;
+        }
+        
+        .features ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .features li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏢 ChatGPT Company Researcher</h1>
+        <p>Comprehensive company analysis with ChatGPT 4o</p>
+    </div>
+    
+    <div class="shortcut-info">
+        <div>Press the shortcut to research any company:</div>
+        <div class="shortcut-key">⌘ + Shift + L</div>
+        <div style="font-size: 11px; margin-top: 5px;">
+            (Mac) or Ctrl + Shift + L (Windows/Linux)
+        </div>
+    </div>
+    
+    <button class="button" id="research-current-page">
+        🏢 Research This Company
+    </button>
+    
+    <button class="button" id="open-chatgpt">
+        💬 Open ChatGPT
+    </button>
+    
+    <div class="features">
+        <strong>What this extension does:</strong>
+        <ul>
+            <li>Analyzes company URLs for comprehensive research</li>
+            <li>Opens ChatGPT 4o with structured company research prompts</li>
+            <li>Covers leadership, financials, cloud strategy, and more</li>
+            <li>Works with keyboard shortcuts for quick access</li>
+        </ul>
+    </div>
+    
+    <div class="status" id="status">
+        Ready to research!
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html> 
