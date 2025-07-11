@@ -152,7 +152,9 @@ Please provide detailed research covering these key areas:
 - Are they expanding, launching new products, or entering new markets?
 - What are their key strategic initiatives?
 
-Please provide specific, actionable insights based on publicly available information about this company.`;
+Please provide specific, actionable insights based on publicly available information about this company.
+
+/canvas`;
 
     return encodeURIComponent(prompt);
 }

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Company Researcher",
+  "name": "Briefly",
   "version": "1.0",
-  "description": "Opens ChatGPT 4o for comprehensive company research when you press Cmd+Shift+L",
+  "description": "Comprehensive company research with ChatGPT 4o Canvas output",
   "permissions": [
     "tabs",
     "activeTab",

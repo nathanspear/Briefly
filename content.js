@@ -148,17 +148,17 @@ function injectPromptToChatGPT(prompt) {
       inputElement.dispatchEvent(new Event('input', { bubbles: true }));
       inputElement.dispatchEvent(new Event('change', { bubbles: true }));
       
-      // Try to automatically submit (optional)
+      // Try to automatically submit 
       setTimeout(() => {
         const submitButton = document.querySelector('button[data-testid="send-button"]') ||
                            document.querySelector('button[type="submit"]') ||
                            document.querySelector('button:last-child');
         
         if (submitButton && !submitButton.disabled) {
-          // Uncomment the next line if you want to auto-submit
-          // submitButton.click();
+          submitButton.click();
+          console.log('Prompt submitted successfully!');
         }
-      }, 500);
+      }, 3000);
     }
   }, 1000);
   

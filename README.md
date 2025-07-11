@@ -1,6 +1,6 @@
-# ChatGPT Company Researcher Chrome Extension
+# Briefly - Chrome Extension
 
-🏢 **Instantly research any company with ChatGPT 4o using a simple keyboard shortcut!**
+🏢 **Instantly research any company with ChatGPT 4o Canvas output!**
 
 ## Features
 
@@ -15,6 +15,7 @@
   - Security operations and compliance stance
   - Strategic direction and future roadmap
 - **URL-Based Research**: Uses only the company URL (no page content scraping)
+- **🎨 ChatGPT Canvas Output**: Research results displayed in interactive Canvas format
 - **Beautiful Interface**: Clean, modern popup with gradient design
 - **Fallback Options**: If automatic prompt injection fails, content is copied to clipboard
 
@@ -54,7 +55,8 @@
    - Extract the company URL and basic page info
    - Open a new tab with ChatGPT 4o
    - Automatically fill in a comprehensive company research prompt
-   - Focus the input field so you can immediately send the message
+   - Submit the prompt automatically after 3 seconds
+   - Display research results in ChatGPT Canvas format
 
 ### Using the Extension Popup
 1. Click the extension icon in the Chrome toolbar

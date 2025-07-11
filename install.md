@@ -1,6 +1,6 @@
 # Quick Installation Guide
 
-## 🚀 Install ChatGPT Page Researcher Extension
+## 🚀 Install Briefly Extension
 
 ### Step 1: Prepare the Extension Files
 Make sure you have all these files in the same folder:
@@ -19,19 +19,21 @@ Make sure you have all these files in the same folder:
 5. The extension should now appear in your extensions list
 
 ### Step 3: Test the Extension
-1. Navigate to any webpage (try a news article or blog post)
+1. Navigate to any company website (try a tech company or startup)
 2. Press `Cmd+Shift+L` (Mac) or `Ctrl+Shift+L` (Windows/Linux)
-3. ChatGPT should open in a new tab with the page content ready for analysis!
+3. ChatGPT 4o should open and automatically start researching the company!
+4. Research results will appear in ChatGPT Canvas format
 
 ### Step 4: Pin the Extension (Optional)
 1. Click the puzzle piece icon in Chrome's toolbar
-2. Pin the "ChatGPT Page Researcher" extension for easy access
+2. Pin the "Briefly" extension for easy access
 
 ## 🎯 Usage Tips
 
-- **Best on content-rich pages**: Works great on articles, blog posts, news sites
-- **Keyboard shortcut**: The fastest way to research any page
-- **Manual backup**: If auto-injection fails, content is copied to clipboard
+- **Best on company websites**: Works great on startup sites, tech companies, business homepages
+- **Keyboard shortcut**: The fastest way to research any company
+- **Automatic submission**: Waits 3 seconds then submits the research prompt automatically
+- **Canvas output**: Research appears in interactive ChatGPT Canvas format for easy editing
 - **Custom shortcuts**: Change shortcuts at `chrome://extensions/shortcuts`
 
 ## 🔧 Troubleshooting
